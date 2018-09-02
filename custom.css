@@ -1,0 +1,282 @@
+box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: url("diamantenherz_2880x1800.png");
+    background-color: #cccccc;
+    text-align:center;
+}
+
+
+header {
+    background-color: #666;
+    padding: 30px;
+    text-align: center;
+    font-size: 35px;
+    color: blue;
+}
+
+
+section {
+    display: -webkit-flex;
+    display: flex;
+}
+
+
+nav {
+    -webkit-flex: 1;
+    -ms-flex: 1;
+    flex: 1;
+    background: #ccc;
+    padding: 20px;
+}
+
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+
+article {
+    -webkit-flex: 3;
+    -ms-flex: 3;
+    flex: 3;
+    background-color: #f1f1f1;
+    padding: 10px;
+}
+
+
+footer {
+    background-color: #777;
+    padding: 10px;
+    text-align: center;
+    color: white;
+}
+
+ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	background-color : #0000080;
+	text-align:center;
+}
+
+li {
+	float: left;
+}
+
+li a {
+	display: block;
+	color: blue;
+	text-align: center;
+	padding: 16px;
+	text decoration : none;
+	}
+
+li a:hover{
+	background-color; #4FC3F7  ;
+}
+
+.magerscroll {
+	 display: -webkit-flex;
+    display: flex;
+   }
+   
+ .slide{
+ 	max-width : 500px;
+ 	position : center;
+ 	margin: auto;
+ }
+ 
+ .text{
+ 	color : #f2f2f2;
+ 	font-size: 15px;
+ 	padding: 8px 12px;
+ 	position: absolute;
+ 	bottom: 8px;
+ 	width: 100%;
+ 	text-align: center;
+ }
+ 
+ .number{
+ 	color: #f2f2f2;
+ 	font-size : 12px;
+ 	padding:8px 12px;
+ 	position:absolute;
+ 	top 0;
+ 	
+}
+
+.dot{
+	height: 15px;
+	width 15px;
+	margin: 0 2px;
+	background-color: #bbb;
+	border-radius: 50%;
+	display: inline-block;
+	transition: background-color 0.6s ease;
+	}
+	
+.active{
+	background-color: #717171;
+}
+
+.fadding{
+	-webkit-animation-name: fadding;
+	-webkit-animation-duration: 1s;
+	animation-name : fadding;
+	animation-duration : 1s;
+}
+
+@-webkit-keyframes fade{
+	from{opacity:.4}
+	to{opacity:1}
+}
+
+@keyframes fade{
+	from{opacity:.4}a
+	to{opacity :1}
+}
+	
+h1{
+	text-align: center;
+	background-color:white;
+}
+
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+td, th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+}
+
+tr:nth-child(even) {
+    background-color: #dddddd;
+}
+
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+
+.fa-twitter {
+  background: #55ACEE;
+  color: white;
+}
+
+.fa-google {
+  background: #dd4b39;
+  color: white;
+}
+
+.fa-linkedin {
+  background: #007bb5;
+  color: white;
+}
+
+.fa-youtube {
+  background: #bb0000;
+  color: white;
+}
+
+.fa-instagram {
+  background: #125688;
+  color: white;
+}
+
+.fa-pinterest {
+  background: #cb2027;
+  color: white;
+}
+
+.fa-snapchat-ghost {
+  background: #fffc00;
+  color: white;
+  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+
+.fa-skype {
+  background: #00aff0;
+  color: white;
+}
+
+.fa-android {
+  background: #a4c639;
+  color: white;
+}
+
+.fa-dribbble {
+  background: #ea4c89;
+  color: white;
+}
+
+.fa-vimeo {
+  background: #45bbff;
+  color: white;
+}
+
+.fa-tumblr {
+  background: #2c4762;
+  color: white;
+}
+
+.fa-vine {
+  background: #00b489;
+  color: white;
+}
+
+.fa-foursquare {
+  background: #45bbff;
+  color: white;
+}
+
+.fa-stumbleupon {
+  background: #eb4924;
+  color: white;
+}
+
+.fa-flickr {
+  background: #f40083;
+  color: white;
+}
+
+.fa-yahoo {
+  background: #430297;
+  color: white;
+}
+
+.fa-soundcloud {
+  background: #ff5500;
+  color: white;
+}
+
+.fa-reddit {
+  background: #ff5700;
+  color: white;
+}
+
+.fa-rss {
+  background: #ff6600;
+  color: white;
+}
