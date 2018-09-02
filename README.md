@@ -1,6 +1,8 @@
 # pweb
 
-hello my name is Jevon Edmund Nahason
+Name : Jevon Edmund Nahason
+NIM : 17/411462/PA/17856
+
 i create this website for my personal page
 this website containts :
 - index.html : homepage
